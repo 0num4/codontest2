@@ -1,8 +1,9 @@
 [tool.poetry]
 name = "codontest"
 version = "0.1.0"
-description = ""
-authors = ["Your Name <you@example.com>"]
+description = "python speed test & glue binding test"
+license = "MIT"
+authors = ["0num4 <r.oonuma@matsuri-tech.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
