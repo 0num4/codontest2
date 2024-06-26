@@ -1,6 +1,8 @@
 # codontest
-mjx-playground3でspeedeval.pyを動かしたかったんですが上手くcodonがモジュールを認識してくれなかったのでpoetryで新しく環境を作り直したら動いた。
 
+mjx-playground3 で speedeval.py を動かしたかったんですが上手く codon がモジュールを認識してくれなかったので poetry で新しく環境を作り直したら動いた。
+
+**this project is archived. because speed-test is now impl shanten-playground.**
 
 ```
 poetry new codontest
@@ -14,11 +16,12 @@ ___
 codon run helloworld.py
 ```
 
-ただあれですね、from python import numpy as npとか書きかえが必要なのはだるい
+ただあれですね、from python import numpy as np とか書きかえが必要なのはだるい
 
 https://zenn.dev/turing_motors/articles/e23973714c3ecf#%E3%81%AA%E3%81%9Ccodon%E3%81%AF%E3%81%93%E3%82%8C%E3%81%BB%E3%81%A9%E9%AB%98%E9%80%9F%E3%81%AA%E3%81%AE%E3%81%8B
 
 マジ？
+
 ```
 一方、外部ライブラリ（例えばnumpyやpandasなど）を利用する場合は型の関係上、Codonでは外部ライブラリを含めたままコンパイルすることができません。Pythonコードとして明示的に分離する必要があり、その点はさらに簡単になるとよいなと感じました。このあたりは今も開発が進められているようです。
 
@@ -26,4 +29,3 @@ https://zenn.dev/turing_motors/articles/e23973714c3ecf#%E3%81%AA%E3%81%9Ccodon%E
 ```
 
 ## speedtest.py
-```
